@@ -1,0 +1,33 @@
+.images {
+    width: 650px;
+    height: 350px;
+    border-radius: 30px;
+}
+
+.article {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    transition: ease-in-out 0.3s;
+}
+
+.article:hover {
+    box-shadow: 0 0 20px;
+}
+
+.article p {
+    font-size: 50px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.a-1 {
+    background-image: linear-gradient(to right, #599DD4, #F8E3E3);
+    border-radius: 30px;
+}
+
+.a-2 {
+    background-image: linear-gradient(to left, #599DD4, #F8E3E3);
+    border-radius: 30px;
+}
+
